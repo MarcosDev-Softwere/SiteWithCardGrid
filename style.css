@@ -1,0 +1,244 @@
+/* Cabeçalho / Header */
+header {
+    width: 100%;
+    background-color: rgba(235, 228, 228, 0.7); /* Cor de fundo com opacidade / Background color with opacity */
+    color: rgba(15, 15, 15, 0.7); /* Cor do texto com opacidade / Text color with opacity */
+    position: fixed; /* Posicionamento fixo / Fixed positioning */
+}
+
+/* Links de navegação no cabeçalho / Navigation links in the header */
+header nav a {
+    color: rgb(12, 12, 12); /* Cor do texto / Text color */
+    text-decoration: none; /* Sem sublinhado / No underline */
+}
+
+/* Efeito de passar o mouse sobre os links de navegação / Hover effect on navigation links */
+header nav a:hover {
+    cursor: pointer; /* Cursor em formato de ponteiro / Pointer cursor */
+    color: rgb(228, 28, 13); /* Cor do texto ao passar o mouse / Text color on hover */
+}
+
+/* Lista não ordenada / Unordered list */
+ul {
+    display: flex; /* Exibição flexível / Flexible display */
+    justify-content: space-between; /* Espaçamento entre os itens / Space between items */
+    text-align: center; /* Alinhamento do texto ao centro / Center text alignment */
+    align-items: center; /* Alinhamento dos itens ao centro / Center items alignment */
+    justify-content: space-around; /* Espaçamento ao redor dos itens / Space around items */
+}
+
+/* Item da lista / List item */
+li {
+    margin: 10px; /* Margem ao redor do item / Margin around item */
+    font-size: 20px; /* Tamanho da fonte / Font size */
+}
+
+/* Logo / Logo */
+#logo {
+    border-radius: 50%; /* Borda arredondada / Rounded border */
+    border: 2px solid rgb(15, 15, 15); /* Borda sólida / Solid border */
+}
+
+/* Banner */
+#banner {
+    background-image: url(./img/ArtGlassBanner.jpg); /* Imagem de fundo / Background image */
+    background-position: 50% 50%; /* Posição da imagem / Image position */
+    background-size: cover; /* Tamanho da imagem / Image size */
+    width: 100%; /* Largura / Width */
+    height: 500px; /* Altura / Height */
+}
+
+/* Vídeo de destaque / Featured video */
+.whact-video {
+    height: 300px; /* Altura / Height */
+    background-size: cover; /* Tamanho do fundo / Background size */
+    background-position: 50% 50%; /* Posição do fundo / Background position */
+    border-radius: 5px; /* Borda arredondada / Rounded border */
+    cursor: pointer; /* Cursor em formato de ponteiro / Pointer cursor */
+    transition: 1s; /* Transição suave / Smooth transition */
+    display: flex; /* Exibição flexível / Flexible display */
+    flex-direction: column; /* Direção da flexbox / Flexbox direction */
+    justify-content: flex-end; /* Alinhamento ao final / Align to the end */
+    padding: 0 0 20px 18px; /* Espaçamento interno / Padding */
+    color: #fff; /* Cor do texto / Text color */
+    font-size: 17px; /* Tamanho da fonte / Font size */
+    font: 1em sans-serif; /* Fonte sans-serif */
+}
+
+/* Container de vídeo / Video container */
+#video {
+    display: flex; /* Exibição flexível / Flexible display */
+    justify-content: center; /* Centralização do conteúdo / Center content */
+}
+
+/* Botão / Button */
+.button {
+    width: 200px; /* Largura / Width */
+    height: 60px; /* Altura / Height */
+    background-color: #D21617; /* Cor de fundo / Background color */
+    color: #fff; /* Cor do texto / Text color */
+    border-radius: 5px; /* Borda arredondada / Rounded border */
+    cursor: pointer; /* Cursor em formato de ponteiro / Pointer cursor */
+    transition: 1s; /* Transição suave / Smooth transition */
+    font-size: 18px; /* Tamanho da fonte / Font size */
+    display: flex; /* Exibição flexível / Flexible display */
+    justify-content: center; /* Centralização do conteúdo / Center content */
+    align-items: center; /* Alinhamento dos itens ao centro / Center items alignment */
+    border: none; /* Sem borda / No border */
+}
+
+/* Efeito de passar o mouse sobre o botão / Hover effect on the button */
+.button:hover {
+    background-color: #fff; /* Cor de fundo ao passar o mouse / Background color on hover */
+    color: #000; /* Cor do texto ao passar o mouse / Text color on hover */
+}
+
+/* Botão / Button */
+button {
+    margin: 50px; /* Margem / Margin */
+}
+
+/* Descrição / Description */
+.descricao {
+    color: rgb(20, 20, 20); /* Cor do texto / Text color */
+    text-align: center; /* Alinhamento do texto ao centro / Center text alignment */
+    text-align: justify; /* Justificação do texto / Justify text alignment */
+    margin: 50px; /* Margem / Margin */
+}
+
+/* Cabeçalhos / Headers */
+h1 {
+    text-align: center; /* Alinhamento do texto ao centro / Center text alignment */
+    margin: 20px; /* Margem / Margin */
+    color: rgb(8, 8, 8); /* Cor do texto / Text color */
+}
+
+h2 {
+    text-align: center; /* Alinhamento do texto ao centro / Center text alignment */
+}
+
+/* Efeito de passar o mouse sobre o h2 / Hover effect on h2 */
+h2:hover {
+    color: aliceblue; /* Cor do texto ao passar o mouse / Text color on hover */
+}
+
+/* Parágrafo / Paragraph */
+#paragrafo {
+    text-align: justify; /* Justificação do texto / Justify text alignment */
+}
+
+/* Container de cartões de atores / Actor cards container */
+.actor-cardes-container {
+    width: 100%; /* Largura / Width */
+    display: flex; /* Exibição flexível / Flexible display */
+    justify-content: center; /* Centralização do conteúdo / Center content */
+    margin-top: 50px; /* Margem superior / Top margin */
+}
+
+/* Contêiner de cartões / Card containers */
+.cardes-containers {
+    width: 90%; /* Largura / Width */
+    display: grid; /* Exibição em grade / Grid display */
+    grid-template-columns: repeat(2, 1fr); /* Colunas em grade / Grid columns */
+    row-gap: 20px; /* Espaçamento entre linhas / Row gap */
+    column-gap: 40px; /* Espaçamento entre colunas / Column gap */
+}
+
+/* Cartões de atores / Actor cards */
+.actor-card {
+    height: 300px; /* Altura / Height */
+    background-size: cover; /* Tamanho do fundo / Background size */
+    background-position: 50% 50%; /* Posição do fundo / Background position */
+    border-radius: 5px; /* Borda arredondada / Rounded border */
+    cursor: pointer; /* Cursor em formato de ponteiro / Pointer cursor */
+    transition: 1s; /* Transição suave / Smooth transition */
+    display: flex; /* Exibição flexível / Flexible display */
+    flex-direction: column; /* Direção da flexbox / Flexbox direction */
+    justify-content: flex-end; /* Alinhamento ao final / Align to the end */
+    padding: 0 0 20px 18px; /* Espaçamento interno / Padding */
+    color: #fff; /* Cor do texto / Text color */
+    font-size: 17px; /* Tamanho da fonte / Font size */
+    font: 1em sans-serif; /* Fonte sans-serif */
+}
+
+/* Layouts de cartões / Card layouts */
+.card-layout1 {
+    background-image: url("./img/ArtGlassCard1.jpg"); /* Imagem de fundo / Background image */
+}
+
+.card-layout2 {
+    background-image: url("./img/ArtGlassCard2.jpg"); /* Imagem de fundo / Background image */
+    order: 2; /* Colocar a imagem à direita / Place the image on the right */
+}
+
+.card-layout2 + #paragrafo2 {
+    order: 1; /* Colocar o texto à esquerda / Place the text on the left */
+}
+
+.card-layout3 {
+    background-image: url("./img/ArtGlassCard3.jpg"); /* Imagem de fundo / Background image */
+}
+
+.card-layout4 {
+    background-image: url("./img/ArtGlassCard4.jpg"); /* Imagem de fundo / Background image */
+    order: 2; /* Colocar a imagem à direita / Place the image on the right */
+}
+
+.card-layout4 + #paragrafo4 {
+    order: 1; /* Colocar o texto à esquerda / Place the text on the left */
+}
+
+/* Imagens sem cartão / Images without card */
+.img-no-card {
+    height: 600px; /* Altura / Height */
+    width: 500px; /* Largura / Width */
+    background-repeat: no-repeat; /* Sem repetição de fundo / No background repeat */
+    background-size: cover; /* Tamanho do fundo / Background size */
+}
+
+.img-no-card3 {
+    height: 500px; /* Altura / Height */
+    width: 500px; /* Largura / Width */
+   
+    background-repeat: no-repeat; /* Sem repetição de fundo / No background repeat */
+    margin-top: 20px; /* Margem superior / Top margin */
+    border-radius: 10px; /* Borda arredondada / Rounded border */
+}
+
+/* Imagem sem cartão com estilos específicos / Image without card with specific styles */
+.img-no-card4 {
+    height: 600px; /* Altura / Height */
+    width: 500px; /* Largura / Width */
+    background-repeat: no-repeat; /* Sem repetição de fundo / No background repeat */
+    background-size: cover; /* Tamanho do fundo / Background size */
+    margin-top: 20px; /* Margem superior / Top margin */
+    border-radius: 10px; /* Borda arredondada / Rounded border */
+}
+
+/* Media query para dispositivos com largura máxima de 760px / Media query for devices with a maximum width of 760px */
+@media (max-width: 760px) {
+    .footer-navigation {
+        display: block; /* Exibição em bloco / Block display */
+    }
+}
+
+/* Rodapé / Footer */
+footer {
+    background-color: black; /* Cor de fundo / Background color */
+    padding: 20px; /* Espaçamento interno / Padding */
+    color: white; /* Cor do texto / Text color */
+    text-align: center; /* Alinhamento do texto ao centro / Center text alignment */
+}
+
+/* Links no rodapé / Links in the footer */
+footer a {
+    padding: 10px; /* Espaçamento interno / Padding */
+    margin: 0 10px; /* Margem / Margin */
+    color: white; /* Cor do texto / Text color */
+    text-decoration: none; /* Sem sublinhado / No underline */
+}
+
+/* Efeito de passar o mouse sobre os links no rodapé / Hover effect on footer links */
+footer a:hover {
+    color: #ddd; /* Cor do texto ao passar o mouse / Text color on hover */
+}
