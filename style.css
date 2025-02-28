@@ -119,7 +119,7 @@ h2 {
 
 /* Efeito de passar o mouse sobre o h2 / Hover effect on h2 */
 h2:hover {
-    color: aliceblue; /* Cor do texto ao passar o mouse / Text color on hover */
+    color:red; /* Cor do texto ao passar o mouse / Text color on hover */
 }
 
 /* Parágrafo / Paragraph */
