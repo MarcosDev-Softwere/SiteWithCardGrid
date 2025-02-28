@@ -41,7 +41,7 @@ li {
 
 /* Banner */
 #banner {
-    background-image: url(./img/ArtGlassBanner.jpg); /* Imagem de fundo / Background image */
+    background-image: url(./ArtGlassBanner.jpg); /* Imagem de fundo / Background image */
     background-position: 50% 50%; /* Posição da imagem / Image position */
     background-size: cover; /* Tamanho da imagem / Image size */
     width: 100%; /* Largura / Width */
@@ -163,11 +163,11 @@ h2:hover {
 
 /* Layouts de cartões / Card layouts */
 .card-layout1 {
-    background-image: url("./img/ArtGlassCard1.jpg"); /* Imagem de fundo / Background image */
+    background-image: url("./ArtGlassCard1.jpg"); /* Imagem de fundo / Background image */
 }
 
 .card-layout2 {
-    background-image: url("./img/ArtGlassCard2.jpg"); /* Imagem de fundo / Background image */
+    background-image: url("./ArtGlassCard2.jpg"); /* Imagem de fundo / Background image */
     order: 2; /* Colocar a imagem à direita / Place the image on the right */
 }
 
@@ -176,11 +176,11 @@ h2:hover {
 }
 
 .card-layout3 {
-    background-image: url("./img/ArtGlassCard3.jpg"); /* Imagem de fundo / Background image */
+    background-image: url("./ArtGlassCard3.jpg"); /* Imagem de fundo / Background image */
 }
 
 .card-layout4 {
-    background-image: url("./img/ArtGlassCard4.jpg"); /* Imagem de fundo / Background image */
+    background-image: url("./ArtGlassCard4.jpg"); /* Imagem de fundo / Background image */
     order: 2; /* Colocar a imagem à direita / Place the image on the right */
 }
 
