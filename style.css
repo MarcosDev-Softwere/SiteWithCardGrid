@@ -94,7 +94,8 @@ li {
 }
 
 /* Botão / Button */
-button {
+.button {
+   
     margin: 50px; /* Margem / Margin */
 }
 
@@ -107,19 +108,19 @@ button {
 }
 
 /* Cabeçalhos / Headers */
-h1 {
+h1 { cursor: pointer;
     text-align: center; /* Alinhamento do texto ao centro / Center text alignment */
     margin: 20px; /* Margem / Margin */
     color: rgb(8, 8, 8); /* Cor do texto / Text color */
 }
 
-h2 {
+h2 { cursor: pointer;
     text-align: center; /* Alinhamento do texto ao centro / Center text alignment */
 }
 
 /* Efeito de passar o mouse sobre o h2 / Hover effect on h2 */
 h2:hover {
-    color:red; /* Cor do texto ao passar o mouse / Text color on hover */
+    color: rgb(241, 15, 140); /* Cor do texto ao passar o mouse / Text color on hover */
 }
 
 /* Parágrafo / Paragraph */
