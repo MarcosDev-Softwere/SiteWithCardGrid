@@ -136,6 +136,10 @@ h2:hover {
     margin-top: 50px; /* Margem superior / Top margin */
 }
 
+/* Efeito de zoom ao passar o mouse sobre o cartão / Zoom effect on hover */
+
+
+
 /* Contêiner de cartões / Card containers */
 .cardes-containers {
     width: 90%; /* Largura / Width */
@@ -160,6 +164,11 @@ h2:hover {
     color: #fff; /* Cor do texto / Text color */
     font-size: 17px; /* Tamanho da fonte / Font size */
     font: 1em sans-serif; /* Fonte sans-serif */
+}
+
+.actor-card:hover {
+    transform: scale(1.1); /* Aumenta o tamanho da imagem em 10% / Scales the image by 10% */
+    transition: transform 1s ease; /* Animação suave do efeito de zoom / Smooth zoom animation */
 }
 
 /* Layouts de cartões / Card layouts */
@@ -195,6 +204,7 @@ h2:hover {
     width: 500px; /* Largura / Width */
     background-repeat: no-repeat; /* Sem repetição de fundo / No background repeat */
     background-size: cover; /* Tamanho do fundo / Background size */
+   
 }
 
 .img-no-card3 {
@@ -215,6 +225,11 @@ h2:hover {
     margin-top: 20px; /* Margem superior / Top margin */
     border-radius: 10px; /* Borda arredondada / Rounded border */
 }
+img:hover{
+    transform: scale(1.1); /* Aumenta o tamanho da imagem em 10% / Scales the image by 10% */
+    transition: transform 1s ease; /* Animação suave do efeito de zoom / Smooth zoom animation */
+}
+
 
 /* Media query para dispositivos com largura máxima de 760px / Media query for devices with a maximum width of 760px */
 @media (max-width: 760px) {
